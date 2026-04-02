@@ -1,0 +1,79 @@
+/* app/globals.css
+   Global reset, CSS variables, and base styles for the Spotify clone.
+   All component-level styles live inside <style jsx> blocks in each component.
+*/
+
+/* ── CSS Variables ── */
+:root {
+  --font-display: "Syne", sans-serif;
+  --font-body: "DM Sans", sans-serif;
+
+  /* Spotify brand colours */
+  --color-green: #1DB954;
+  --color-green-hover: #1ed760;
+  --color-black: #000000;
+  --color-dark: #121212;
+  --color-surface: #181818;
+  --color-surface-hover: #282828;
+  --color-muted: #b3b3b3;
+  --color-white: #ffffff;
+
+  /* Layout */
+  --sidebar-width: 280px;
+  --nowplaying-height: 90px;
+}
+
+/* ── Reset ── */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: var(--font-body), sans-serif;
+  background: var(--color-black);
+  color: var(--color-white);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden; /* Spotify-like; inner elements scroll */
+}
+
+/* ── Focus Styles (accessibility) ── */
+:focus-visible {
+  outline: 2px solid var(--color-green);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+/* ── Scrollbar ── */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #555;
+  border-radius: 3px;
+}
+
+/* ── Selection ── */
+::selection {
+  background: var(--color-green);
+  color: var(--color-black);
+}
+
+/* ── Animations ── */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.fade-in {
+  animation: fadeIn 0.35s ease forwards;
+}
