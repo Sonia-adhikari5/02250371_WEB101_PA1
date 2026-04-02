@@ -5,7 +5,7 @@ A React/Next.js recreation of the **Spotify Web Player** home page, built for
 
 ---
 
-## 🎯 Functionality
+##  Functionality
 
 | Feature | Description |
 |---|---|
@@ -21,7 +21,7 @@ A React/Next.js recreation of the **Spotify Web Player** home page, built for
 
 ---
 
-## 🗂 Component Architecture
+## Component Architecture
 
 ```
 src/
@@ -80,7 +80,7 @@ Page (state owner)
 
 ---
 
-## 🏗 Implementation Decisions
+## Implementation Decisions
 
 ### Framework Choice – Next.js 14 (App Router)
 Next.js was chosen over plain Vite/React for its built-in font optimisation (`next/font`), file-based routing, and production-ready defaults. The App Router enables Server Components by default, with `"use client"` added only where interactivity is required.
@@ -110,7 +110,7 @@ Scoped `<style jsx>` blocks (Next.js built-in CSS-in-JS) are used per component,
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 - Node.js 18+
@@ -137,7 +137,7 @@ npm start
 
 ---
 
-## 📦 Third-Party Dependencies
+##  Third-Party Dependencies
 
 | Package | Version | Purpose |
 |---|---|---|
@@ -149,7 +149,7 @@ No other external libraries are used. All CSS is custom.
 
 ---
 
-## 🌐 Browser Testing
+##  Browser Testing
 
 Tested and consistent across:
 - Chrome 124+ (desktop & mobile)
@@ -161,7 +161,7 @@ Screen sizes tested: 375px (iPhone SE), 768px (iPad), 1280px, 1920px.
 
 ---
 
-## 📋 Submission Details
+##  Submission Details
 
 - **Module**: WEB101 – Web Technologies
 - **Assignment**: Practical Assignment 1
@@ -171,7 +171,7 @@ Screen sizes tested: 375px (iPhone SE), 768px (iPad), 1280px, 1920px.
 
 ---
 
-## ⚠️ Academic Integrity
+##  Academic Integrity
 
 This project is submitted in compliance with the RUB Wheel of Academic Law (Section H2).  
 All code has been written independently. The Spotify brand and design are used purely  
