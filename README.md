@@ -4,6 +4,7 @@ A React/Next.js recreation of the **Spotify Web Player** home page, built for
 **WEB101 Practical Assignment 1** at the Royal University of Bhutan, College of Science and Technology.
 
 ---
+## GIT REPOSITORY LINK: https://github.com/Sonia-adhikari5/02250371_WEB101_PA1.git
 
 ##  Functionality
 
